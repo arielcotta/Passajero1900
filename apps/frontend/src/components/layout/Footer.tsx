@@ -14,19 +14,19 @@ const Footer: React.FC = () => {
               buena ubicación y un ambiente amigable.
             </p>
             <div className="flex space-x-4">
-              <a href="https://instagram.com/pasajero1900"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="hover:text-primary transition-colors"
->
-  <FaInstagram className="text-lg md:text-xl" />
+				<a href="https://instagram.com/passajero1900"
+				  target="_blank"
+				  rel="noopener noreferrer"
+				  className="hover:text-primary transition-colors"
+				>
+			<FaInstagram className="text-lg md:text-xl" />
               </a>
-              <a href="https://facebook.com/pasajero1900"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="hover:text-primary transition-colors"
->
-  <FaFacebook className="text-lg md:text-xl" />
+				<a href="https://facebook.com/passajero1900"
+				  target="_blank"
+				  rel="noopener noreferrer"
+				  className="hover:text-primary transition-colors"
+				>
+			<FaFacebook className="text-lg md:text-xl" />
               </a>
               <a href="#" className="hover:text-primary transition-colors">
                 <FaWhatsapp className="text-lg md:text-xl" />
