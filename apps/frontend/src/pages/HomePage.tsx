@@ -370,12 +370,18 @@ export default function HomePage() {
               whileHover={{ scale: 1.02 }}
               className="bg-gradient-to-br from-gray-50 to-blue-50 rounded-2xl p-4 md:p-8 shadow-xl"
             >
-              <div className="aspect-video bg-gradient-to-br from-[#2D82B5] to-purple-600 rounded-xl flex items-center justify-center text-white">
-                <div className="text-center px-4">
-                  <FaMapMarkerAlt className="text-4xl md:text-6xl mx-auto mb-3 md:mb-4" />
-                  <p className="text-xl md:text-2xl font-semibold">Mapa próximamente</p>
-                </div>
-              </div>
+			<div className="aspect-video rounded-xl overflow-hidden">
+				  <iframe
+					title="Mapa PASSAJERO1900"
+					src="https://www.google.com/maps?q=Calle%2055%20613,%20La%20Plata,%20Buenos%20Aires,%20Argentina&output=embed"
+					width="100%"
+					height="100%"
+					style={{ border: 0 }}
+					allowFullScreen
+					loading="lazy"
+					referrerPolicy="no-referrer-when-downgrade"
+				  />
+			</div>
             </motion.div>
           </motion.div>
         </div>
