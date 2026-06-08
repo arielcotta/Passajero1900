@@ -40,8 +40,8 @@ export default function HomePage() {
     {
       name: 'Habitación Compartida Mixta',
       beds: '4 camas individuales',
-      price: '$35,000/noche',
-      priceDiscount: '$30,000/noche (3+ noches)',
+      price: '$45,000/noche',
+      priceDiscount: '$40,000/noche (4+ noches)',
       icon: <FaUsers className="text-4xl" />,
       features: [
         'Cortinado privado',
@@ -55,8 +55,8 @@ export default function HomePage() {
     {
       name: 'Habitación Privada para Pareja 1',
       beds: 'Cama doble (máx. 2 personas)',
-      price: '$35,000/noche',
-      priceDiscount: '$30,000/noche (3+ noches)',
+      price: '$45,000/noche',
+      priceDiscount: '$40,000/noche (4+ noches)',
       icon: <FaDoorOpen className="text-4xl" />,
       features: [
         'Luces individuales',
@@ -70,8 +70,8 @@ export default function HomePage() {
     {
       name: 'Habitación Privada para Pareja 2',
       beds: 'Cama doble (máx. 2 personas)',
-      price: '$35,000/noche',
-      priceDiscount: '$30,000/noche (3+ noches)',
+      price: '$45,000/noche',
+      priceDiscount: '$40,000/noche (4+ noches)',
       icon: <FaDoorOpen className="text-4xl" />,
       features: [
         'Luces individuales',
